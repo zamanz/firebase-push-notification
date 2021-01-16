@@ -1,4 +1,4 @@
-package me.kzaman.firebasepushnotification;
+package me.kzaman.firebasenotification;
 
 import androidx.appcompat.app.AppCompatActivity;
 

@@ -1,4 +1,4 @@
-package me.kzaman.firebasepushnotification;
+package me.kzaman.firebasenotification;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("me.kzaman.firebasepushnotification", appContext.getPackageName());
+        assertEquals("me.kzaman.firebasenotification", appContext.getPackageName());
     }
 }

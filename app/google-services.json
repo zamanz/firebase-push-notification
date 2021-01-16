@@ -44,9 +44,9 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:516680089851:android:8872565a7e734c34e0b05e",
+        "mobilesdk_app_id": "1:516680089851:android:48533133e8cb4449e0b05e",
         "android_client_info": {
-          "package_name": "me.kzaman.firebasepushnotification"
+          "package_name": "me.kzaman.firebasenotification"
         }
       },
       "oauth_client": [

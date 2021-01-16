@@ -1,4 +1,4 @@
-package me.kzaman.firebasepushnotification;
+package me.kzaman.firebasenotification;
 
 import android.graphics.BitmapFactory;
 
@@ -9,7 +9,7 @@ import androidx.core.app.NotificationManagerCompat;
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
 
-public class FirebaseNotification extends FirebaseMessagingService {
+public class FirebaseNotificationService extends FirebaseMessagingService {
 
     @Override
     public void onMessageReceived(@NonNull RemoteMessage remoteMessage) {
@@ -22,7 +22,7 @@ public class FirebaseNotification extends FirebaseMessagingService {
         NotificationCompat.Builder builder = new NotificationCompat.Builder(this, "notification")
                 .setContentTitle(title)
                 .setSmallIcon(R.drawable.ic_notification)
-                .setLargeIcon(BitmapFactory.decodeResource(getResources(), R.mipmap.ic_launcher))
+                .setLargeIcon(BitmapFactory.decodeResource(getResources(), R.drawable.ic_notification))
                 .setAutoCancel(true)
                 .setPriority(NotificationCompat.PRIORITY_DEFAULT)
                 .setContentText(message);
